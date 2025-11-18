@@ -1,0 +1,82 @@
+/* Fuente Roboto Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto Condensed", sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: white;
+    color: #EC3919;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+    margin-bottom: 24px;
+    
+}
+
+.collapse {
+    justify-items: end;
+}
+
+
+.navbar-mio {
+    background-color: white;
+    justify-content:space-around;
+        
+    }
+
+.navbar-naveg {
+     display: flex;
+     gap: 15px;
+     font-size: 18px;
+     text-decoration: none;
+     list-style: none;
+}
+
+
+.pregunta {
+    text-decoration: underline;
+       font-size: 20px;
+    }
+
+.presentacion {
+       font-size: 24px;
+    }
+
+.respuesta {
+    color: chocolate;
+    font-size: 18px;
+}
+
+.historia {
+       font-size: 22px;
+}
+
+.founder {
+    color: violet;
+    font-size: 20px;
+    text-decoration: wavy;
+}
+
+h1 {
+    
+    font-size: 44px;
+    text-decoration: underline;
+    text-align: center;
+   }
+
+h4 {
+    font-size: 14px;
+    text-align: center;
+      }
+
+footer {
+    font-size: 10px;
+}
