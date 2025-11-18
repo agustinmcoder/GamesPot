@@ -41,7 +41,7 @@ body{
     color: #EC3919;
 }
 .nav-link:hover{
-    color: whitesmoke
+    color: whitesmoke;
 }
 
 .navbar-mio {
@@ -49,17 +49,6 @@ body{
     font-size: 24px;
         }
     
-
-.pregunta {
-    text-decoration: underline;
-       font-size: 20px;
-    }
-
-.respuesta {
-    color: chocolate;
-    font-size: 18px;
-}
-
 .historia {
        font-size: 22px;
 }
@@ -85,8 +74,8 @@ h4 {
 
 
 footer {
-    padding-top: 100px;
-    font-size: 10px;
+    padding-top: 120px;
+    font-size: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -144,15 +133,63 @@ footer {
     width: auto;
 }
 
-/* Dropdown hoja Faq */
+/* Acordeon hoja Faq */
 
-.dropdown-faq {
-    min-height: 120px;
+.accordion-header-mio {
+        color: #EC3919;
+        font-size: 22px;
 
 }
 
-.card-faq {
-    width: 50%;
-    color: whitesmoke;
-    border-color: black;
+.accordion-item-mio {
+ 
+    color: #EC3919;
+
+}
+
+.accordion-button-mio {
+     background-color: black;
+    color: #EC3919;
+    border-color: #EC3919;
+    border: 2px;
+    width: 100%;
+    text-align: start;
+}
+
+/* Grid de fundadores */
+
+.pic-founder {
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 50%;
+}
+
+/* Grid de Servicios */
+
+.img-servicio {
+
+    height: auto;
+    max-width: 100%;
+
+}
+
+.row-serv {
+    gap: 24px;
+    align-items: center;
+        border: 2px;
+    border-style: solid;
+   }
+
+.servicio {
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+    justify-items: center;
+    }
+
+@media (max-width: 600px) {
+  p {
+    font-size: 12px;
+  }
 }
