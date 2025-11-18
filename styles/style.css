@@ -4,50 +4,55 @@
 *{
     margin: 0px;
     padding: 0px;
+    background-color: black;
 }
 body{
     margin: 18px;
     font-family: "Roboto Condensed", sans-serif;
     background-color: white;
     color: #EC3919;
+    font-size: 18px;
 }
+
 
 .container-fluid {
-    display: flex;
-    justify-content: space-between;
-    font-size: 25px;
-    align-items: center;
-    margin-bottom: 24px;
-    
+    margin-bottom: 48px;
 }
 
-.collapse {
-    justify-items: end;
+.navbar-mio .navbar-collapse {
+  justify-content: flex-end;
 }
 
+.navbar-mio .navbar-toggler {
+  margin-left: auto;
+}
+
+
+.active {
+    color: white;
+}
+
+.nav-button {
+    height: 30px;
+    width: 30px;
+    background-color: wheat ;
+    }
+.nav-link {
+    color: #EC3919;
+}
+.nav-link:hover{
+    color: whitesmoke
+}
 
 .navbar-mio {
-    background-color: white;
-    justify-content:space-around;
-        
-    }
-
-.navbar-naveg {
-     display: flex;
-     gap: 15px;
-     font-size: 18px;
-     text-decoration: none;
-     list-style: none;
-}
-
+    color: #EC3919;
+    font-size: 24px;
+        }
+    
 
 .pregunta {
     text-decoration: underline;
        font-size: 20px;
-    }
-
-.presentacion {
-       font-size: 24px;
     }
 
 .respuesta {
@@ -75,8 +80,79 @@ h1 {
 h4 {
     font-size: 14px;
     text-align: center;
+    padding-bottom: 20px;
       }
 
+
 footer {
+    padding-top: 100px;
     font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-body {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+/* Cartas de la pagina "Compras" */
+.card {
+    width: 18rem;
+    border-color: #EC3919;
+    background-color: black;
+}
+
+.btn-mio {
+    
+    background-color: #EC3919;
+    color: black;
+    text-decoration: underline;
+    justify-items: end;
+}
+
+.btn-mio:hover {
+    background-color: whitesmoke;
+    color: black;
+
+
+}
+
+.card-body {
+
+    color: whitesmoke;
+    font-size: 12px;
+
+}
+
+.card-compra {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.card-img-top {
+    height: 40%;
+    width: auto;
+}
+
+/* Dropdown hoja Faq */
+
+.dropdown-faq {
+    min-height: 120px;
+
+}
+
+.card-faq {
+    width: 50%;
+    color: whitesmoke;
+    border-color: black;
 }

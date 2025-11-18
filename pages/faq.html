@@ -11,34 +11,100 @@
 </head>
 
 <body>
-    
-    <header>
-        <img src="../assets/logo.png" alt="logo">
-        <nav>
-            <ul>
-                <li class="li-nav"><a class="a-nav" href="../index.html">Home</a></li>
-                <li class="li-nav"><a class="a-nav" href="./servicios.html">Servicios</a></li>
-                <li class="li-nav"><a class="a-nav" href="./promos.html">Promos</a></li>
-                <li class="li-nav"><a class="a-nav" href="#">FAQ</a></li>
-                <li class="li-nav"><a class="a-nav" href="./nosotros.html">Nosotros</a></li>
-            </ul>
+  <header>
+        <nav class="navbar navbar-expand-lg navbar-mio">
+                <div class="container-fluid">
+                    <a class="navbar-brand-mio" href="#"><img src="../assets/logo.png" alt="" class="logo"></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <span><img class="nav-button" src="../assets/nav-boton.png" alt=""></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                        <a class="nav-link" href="#">faq</a>
+                        <a class="nav-link" href="./promos.html">Compras</a>
+                    </div>
+                </div>
+            </div>
         </nav>
-    </header>
+</header>
 
     <main>
 
         <h1>FAQs</h1>
-        <p class="pregunta">Puedo ir con mi mascota?</p>
-        <p class="respuesta">Si, todas las mascotas son bienvenidas mientras se mantengan en las zonas delimitadas</p>
-        <p class="pregunta">Puedo llevar mis perifericos?</p>
-        <p class="respuesta">en GamesPot siempre te vamos a dar perifericos de primer nivel. Si, igualmente, preferis usar los tuyos, no hay problema, avisale a uno de nuestros empleados para que el los conecte</p>
-        <p class="pregunta">Como se que juegos tienen instalados?</p>
-        <p class="respuesta">En GamesPot tenemos mas de 200 juegos instalados en PC y 120 en Ps5 para que disfrutes sin preocuparte. Igualmente el catalogo actualizado lo podes encontrar en nuesto Instagram</p>
-        <p class="pregunta">Puedo llevar comida o bebida de afuera?</p>
-        <p class="respuesta">No esta permitido el ingreso de alimentos que no hayan sido adquiridos en el local. Enel local hay 4 puntos de hidratacion gratuitos porque la salud es lo primero</p>
-        <p class="pregunta">Cuanto tiempo puedo jugar si saco hora libre?</p>
-        <p class="respuesta">El maximo de tiempo, por mas que se saque hora libre, es de 12 horas por persona, ya que jugar mas tiempo sin descanso significativo puede ser perjudicial para la salud</p>
+        <h4>Despeja tus dudas antes de venir</h4>
 
+        <!--/* Pregunta y respuesta 1*/ -->
+        <p>
+        <button class="btn btn-mio" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Puedo ir con mi mascota?
+        </button>
+        </p>
+    <div class="dropdown-faq">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-faq">
+                Si, todas las mascotas son bienvenidas mientras se mantengan en las zonas delimitadas
+            </div>
+        </div>
+    </div>
+    <!--/* Pregunta y respuesta 1*/ -->
+    <p>
+        <button class="btn btn-mio" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Puedo llevar mis perifericos?
+        </button>
+        </p>
+    <div class="dropdown-faq">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-faq">
+                en GamesPot siempre te vamos a dar perifericos de primer nivel. Si, igualmente, preferis usar los tuyos, no hay problema, avisale a uno de nuestros empleados para que el los conecte
+            </div>
+        </div>
+    </div>
+    <!--/* Pregunta y respuesta 1*/ -->
+      <p>
+        <button class="btn btn-mio" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Como se que juegos tienen instalados?
+        </button>
+        </p>
+    <div class="dropdown-faq">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-faq">
+                En GamesPot tenemos mas de 200 juegos instalados en PC y 120 en Ps5 para que disfrutes sin preocuparte. Igualmente el catalogo actualizado lo podes encontrar en nuesto Instagram
+            </div>
+        </div>
+    </div>
+    <!--/* Pregunta y respuesta 1*/ -->
+       <p>
+        <button class="btn btn-mio" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Puedo llevar comida o bebida de afuera?
+        </button>
+        </p>
+    <div class="dropdown-faq">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-faq">
+                No esta permitido el ingreso de alimentos que no hayan sido adquiridos en el local. Enel local hay 4 puntos de hidratacion gratuitos porque la salud es lo primero
+            </div>
+        </div>
+    </div>
+    <!--/* Pregunta y respuesta 1*/ -->
+       <p>
+        <button class="btn btn-mio" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Cuanto tiempo puedo jugar si saco hora libre?
+        </button>
+        </p>
+    <div class="dropdown-faq">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-faq">
+                El maximo de tiempo, por mas que se saque hora libre, es de 12 horas por persona, ya que jugar mas tiempo sin descanso significativo puede ser perjudicial para la salud
+            </div>
+        </div>
+    </div>
+    
     
     </main>
 
