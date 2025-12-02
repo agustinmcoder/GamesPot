@@ -1,0 +1,193 @@
+/* Fuente Roboto Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto Condensed", sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+body{
+    margin: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #EC3919;
+    font-size: 18px;
+}
+
+
+.container-fluid {
+    margin-bottom: 48px;
+}
+
+.navbar-mio .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-mio .navbar-toggler {
+  margin-left: auto;
+}
+
+
+.active {
+    color: white;
+}
+
+.nav-button {
+    height: 30px;
+    width: 30px;
+    background-color: wheat ;
+    }
+.nav-link {
+    color: #EC3919;
+}
+.nav-link:hover{
+    color: whitesmoke;
+}
+
+.navbar-mio {
+    color: #EC3919;
+    font-size: 24px;
+        }
+    
+.historia {
+       font-size: 22px;
+}
+
+.founder {
+    color: violet;
+    font-size: 20px;
+    text-decoration: wavy;
+}
+
+h1 {
+    
+    font-size: 44px;
+    text-decoration: underline;
+    text-align: center;
+   }
+
+h4 {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+      }
+
+
+footer {
+    padding-top: 120px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-body {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+/* Cartas de la pagina "Compras" */
+.card {
+    width: 18rem;
+    border-color: #EC3919;
+    background-color: black;
+}
+
+.btn-mio {
+    
+    background-color: #EC3919;
+    color: black;
+    text-decoration: underline;
+    justify-items: end;
+}
+
+.btn-mio:hover {
+    background-color: whitesmoke;
+    color: black;
+
+
+}
+
+.card {
+    width: 18rem;
+    border-color: #EC3919;
+    background-color: black;
+}
+
+.card-compra {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.card-img-top {
+    height: 40%;
+    width: auto;
+}
+
+/* Acordeon hoja Faq */
+
+.accordion-header-mio {
+        color: #EC3919;
+        font-size: 22px;
+
+}
+
+.accordion-item-mio {
+ 
+    color: #EC3919;
+
+}
+
+.accordion-button-mio {
+     background-color: black;
+    color: #EC3919;
+    border-color: #EC3919;
+    border: 2px;
+    width: 100%;
+    text-align: start;
+}
+
+/* Grid de fundadores */
+
+.pic-founder {
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 50%;
+}
+
+/* Grid de Servicios */
+
+.img-servicio {
+
+    height: auto;
+    max-width: 100%;
+
+}
+
+.row-serv {
+    gap: 24px;
+    align-items: center;
+        border: 2px;
+    border-style: solid;
+   }
+
+.servicio {
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+    justify-items: center;
+    }
+
+@media (max-width: 600px) {
+  p {
+    font-size: 12px;
+  }
+}

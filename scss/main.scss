@@ -1,9 +1,22 @@
 // BASE
 
 @use "./partials/base/reset.scss";
-@use "./partials/base/typography.scss";
+@use "./partials/base/tipografia.scss";
 
 
-//HEADER
+//COMPONENTS
 
 @use "./partials/components/header";
+@use "./partials/components/footer";
+@use "./partials/components/general";
+@use "./partials/components/index.scss";
+@use "./partials/components/compras.scss";
+@use "./partials/components/nosotros.scss"; 
+@use "./partials/components/servicios.scss";
+@use "./partials/components/faq.scss";  
+@use "./partials/components/card"
+
+
+
+
+

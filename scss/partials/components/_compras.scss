@@ -1,0 +1,52 @@
+@use "../utilities/extend.scss";
+@use "../utilities/variables.scss";
+@use "../utilities/mixins.scss";
+
+.btn-mio {
+    @extend %button-mio;
+    background-color: variables.$primary-color;
+    
+    &:hover {
+        background-color: whitesmoke;
+        color: black  ;
+
+}
+}
+
+.card {
+    width: 18rem;
+    border-color: #EC3919;
+    background-color: black;
+     
+    
+}
+
+.btn-mio {
+    
+    background-color: #EC3919;
+    color: black;
+    text-decoration: underline;
+    justify-items: end;
+}
+
+.card-img-top {
+    height: 40%;
+    width: auto;
+}
+
+.card-compra {
+    @include mixins.flex(row, space-around, space-between);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card-title {
+    font-size: 22px;
+    color: variables.$primary-color;
+}
+
+.card-body {
+    font-size: 12px;
+    color: variables.$primary-color;
+}
+

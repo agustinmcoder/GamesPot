@@ -1,0 +1,20 @@
+@use "../utilities/mixins.scss";
+
+.img-servicio {
+    @include mixins.imgbody (100%, 100%)
+    
+}
+
+.row-serv {
+    gap: 24px;
+    align-items: center;
+        border: 2px;
+    border-style: solid;
+   }
+
+.servicio {
+height: auto;
+max-width: 100%;
+text-align: center;
+justify-items: center;
+   }

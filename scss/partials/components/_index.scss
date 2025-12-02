@@ -1,0 +1,11 @@
+@use "../utilities/mixins.scss";
+
+.img-body {
+    @include mixins.imgbody (100%, 100%)
+    
+}
+
+.col {
+    margin-bottom: 46px;
+    margin-top: 12px;
+}

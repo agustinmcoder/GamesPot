@@ -1,0 +1,8 @@
+@use "../utilities/mixins.scss";
+
+footer {
+     @include mixins.flex(row, space-around, center);
+    gap: 16px; 
+    font-size: 10px;
+    margin-top: 120px;
+}
