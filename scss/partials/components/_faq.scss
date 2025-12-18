@@ -1,4 +1,5 @@
 @use "../utilities/variables.scss";
+@use "../utilities/mixins.scss";
 
 .accordion-header-mio {
         font-size: 22px;
@@ -19,3 +20,45 @@
     width: 100%;
     text-align: start;
 }
+
+
+
+.btn-mio {
+    margin-top: 15px;
+    background-color: variables.$primary-color;
+    color: black;
+    text-decoration: underline;
+    justify-items: end;
+}
+
+.formulario-faq {
+    margin-top: 10%;
+
+    .mb-3 {
+    width: 40%;
+    color: variables.$primary-color;
+   margin-top: 55px;
+    text-align: center;
+    justify-self: center;
+
+}
+
+.form-control-lg {
+    width: 100%;
+     background-color: whitesmoke;
+             @media (max-width: 768px) {
+
+            font-size: 14px;
+            
+        }
+
+            @media (max-width: 375px) {
+
+              font-size: 10px;
+                
+        }
+}
+  
+}
+
+

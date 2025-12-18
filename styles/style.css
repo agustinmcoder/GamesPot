@@ -22,9 +22,6 @@ ul {
 ul li {
   list-style: none;
 }
-ul li .active {
-  color: white;
-}
 ul li .nav-link {
   text-decoration: none;
   color: red;
@@ -69,6 +66,7 @@ h4 {
   font-size: 14px;
   text-align: center;
   padding-bottom: 20px;
+  color: #EC3919;
 }
 
 .img-body {
@@ -108,7 +106,6 @@ h4 {
 
 .btn-mio {
   background-color: #EC3919;
-  color: black;
   text-decoration: underline;
   justify-items: end;
 }
@@ -190,6 +187,39 @@ h4 {
   border: 2px;
   width: 100%;
   text-align: start;
+}
+
+.btn-mio {
+  margin-top: 15px;
+  background-color: #EC3919;
+  color: black;
+  text-decoration: underline;
+  justify-items: end;
+}
+
+.formulario-faq {
+  margin-top: 10%;
+}
+.formulario-faq .mb-3 {
+  width: 40%;
+  color: #EC3919;
+  margin-top: 55px;
+  text-align: center;
+  justify-self: center;
+}
+.formulario-faq .form-control-lg {
+  width: 100%;
+  background-color: whitesmoke;
+}
+@media (max-width: 768px) {
+  .formulario-faq .form-control-lg {
+    font-size: 14px;
+  }
+}
+@media (max-width: 375px) {
+  .formulario-faq .form-control-lg {
+    font-size: 10px;
+  }
 }
 
 .card {
